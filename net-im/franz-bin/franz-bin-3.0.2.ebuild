@@ -9,6 +9,13 @@ inherit eutils autotools
 DESCRIPTION="Franz is a free messaging app / former Emperor of Austria and combines chat & messaging services into one application. He currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more."
 HOMEPAGE="http://meetfranz.com/"
 
+SRC_URI_AMD64="https://github.com/imprecision/franz-app/releases/download/${PV}/Franz-linux-x64-${PV}.tgz"
+SRC_URI_X86="https://github.com/imprecision/franz-app/releases/download/${PV}/Franz-linux-ia32-${PV}.tgz"
+SRC_URI="
+        amd64? ( ${SRC_URI_AMD64} )
+        x86? ( ${SRC_URI_X86} )
+"
+
 SRC_URI="https://github.com/imprecision/franz-app/releases/download/${PV}/Franz-linux-x64-${PV}.tgz"
 
 SLOT='0'
