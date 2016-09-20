@@ -1,6 +1,6 @@
 # Gentoo overlay - rukruk 
 
-Overlay is not official.
+Overlay is not official. (Overlay is added in https://gpo.zugaina.org/)
 If i'm not updating some versions please create issue, as probably i'm not checking all the time new versions.
 
 
