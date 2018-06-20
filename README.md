@@ -4,6 +4,8 @@ Overlay is not official. (Overlay is added in https://gpo.zugaina.org/)
 If i'm not updating some versions please create issue, as probably i'm not checking all the time new versions.
 
 
+ * app-misc/openauto - [https://github.com/f1xpl/openauto.git](https://github.com/f1xpl/openauto.git)
+ * dev-libs/aasdk - [https://github.com/f1xpl/aasdk](https://github.com/f1xpl/aasdk)
  * app-admin/corgi - [https://github.com/DrakeW/corgi](https://github.com/DrakeW/corgi)
  * net-im/Franz - [http://meetfranz.com/](http://meetfranz.com/)
  * net-im/messenger-for-desktop-bin - [https://messengerfordesktop.com/](https://messengerfordesktop.com/) - deprecated
